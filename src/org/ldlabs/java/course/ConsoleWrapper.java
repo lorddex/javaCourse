@@ -1,3 +1,4 @@
+package org.ldlabs.java.course;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

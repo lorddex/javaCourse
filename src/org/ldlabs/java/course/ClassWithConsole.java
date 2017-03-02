@@ -1,7 +1,8 @@
+package org.ldlabs.java.course;
 /**
  * Simple main with console access.
  * 
- * @author Pieatrofrancesco Apollonio
+ * @author Pietrofrancesco Apollonio
  *
  */
 public class ClassWithConsole extends ConsoleWrapper
