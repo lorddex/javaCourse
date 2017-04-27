@@ -5,7 +5,7 @@ package org.ldlabs.java.course;
  * @author Pietrofrancesco Apollonio
  *
  */
-public class ClassWithConsole
+public class ClassWithConsole 
 {
 
 	public static void main(String[] args)
