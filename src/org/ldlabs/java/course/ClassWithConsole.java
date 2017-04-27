@@ -5,17 +5,17 @@ package org.ldlabs.java.course;
  * @author Pietrofrancesco Apollonio
  *
  */
-public class ClassWithConsole extends ConsoleWrapper
+public class ClassWithConsole
 {
 
 	public static void main(String[] args)
 	{
 		
 		System.out.print("Insert a number: ");
-		int val = readInt();
+		int val = Console.readInt();
 		System.out.println("Value read: " + val);
 		System.out.print("Insert a string: ");
-		String strVal = readString();
+		String strVal = Console.readString();
 		System.out.println("Value read: " + strVal);
 		
 	}

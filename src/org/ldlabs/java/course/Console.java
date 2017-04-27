@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * @author Pietrofrancesco Apollonio
  *
  */
-public class ConsoleWrapper
+public class Console
 {
 
 	/**
@@ -23,7 +23,7 @@ public class ConsoleWrapper
 	 * @return A String read from the Console.
 	 * 
 	 */
-	protected static String readString()
+	public static String readString()
 	{
 		try
 		{
@@ -43,7 +43,7 @@ public class ConsoleWrapper
 	 * @return An int read from the Console.
 	 * 
 	 */
-	protected static int readInt()
+	public static int readInt()
 	{
 		return Integer.parseInt(readString());
 	}
@@ -54,7 +54,7 @@ public class ConsoleWrapper
 	 * @return A float read from the Console.
 	 * 
 	 */
-	protected static float readFloat()
+	public static float readFloat()
 	{
 		return Float.parseFloat(readString());
 	}
@@ -65,7 +65,7 @@ public class ConsoleWrapper
 	 * @return A double read from the Console.
 	 * 
 	 */
-	protected static double readDouble()
+	public static double readDouble()
 	{
 		return Double.parseDouble(readString());
 	}
@@ -76,7 +76,7 @@ public class ConsoleWrapper
 	 * @return A long read from the Console.
 	 * 
 	 */
-	protected static long readLong()
+	public static long readLong()
 	{
 		return Long.parseLong(readString());
 	}
@@ -87,7 +87,7 @@ public class ConsoleWrapper
 	 * @return A short read from the Console.
 	 * 
 	 */
-	protected static long readShort()
+	public static long readShort()
 	{
 		return Short.parseShort(readString());
 	}
